@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Carme';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Carme Regular'), local('Carme'), url(http://themes.googleusercontent.com/static/fonts/carme/v4/Upg28fsDDYxCiFrWVodtfA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito-Bold'), url(http://themes.googleusercontent.com/static/fonts/nunito/v4/TttUCfJ272GBgSKaOaD7Kj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
