@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Einrichtung</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head> 
+
+<body> 
+
+  <div data-role="page" id="start">
+    
+    <title>Einrichtung</title>
+    
+    <div data-role="header">
+      <h1>Einrichtungsassistent</h1>
+    </div>
+    
+    <div data-role="content">
+      <p>Willkommen! In den folgenden Schritten werden Dateien benötigt. Diese kannst du über einen kleinen Link laden. Insgesamt werden etwa 30 KB benötigt - eine Sache von einer Sekunde.</p>
+      <a href="#step1" data-role="button" data-rel="dialog" data-transition="pop">Loslegen</a>
+    </div>
+    
+  </div>
+  
+  <div data-role="page" id="step1">
+  
+    <title>Die ersten Dateien</title>
+    
+    <div data-role="header">
+      <h1>Schritt 1</h1>
+    </div>
+    
+    <div data-role="content">
+      <p>Als erstes benötigst du fünf Dateien in einem ZIP-Ordner. Lade diesen <a href="http://j.gs/4300510/prep1">jetzt herunter</a>. Hierbei handelt es sich um 10 KB. Entpacke die Datei anschließend an einem Ort deiner Wahl. Dies ist jetzt das Root-Verzeichnis.</p>
+      <a href="http://j.gs/4300510/prep1" data-role="button" data-rel="dialog" data-transition="pop">Datei laden</a>
+      <a href="#step2" data-role="button" data-rel="dialog" data-transition="flip">Okay, weiter!</a>
+    </div>
+    
+  </div>
+  
+  <div data-role="page" id="step2">
+  
+    <title>style laden</title>
+    
+    <div data-role="header">
+      <h1>Schritt 2</h1>
+    </div>
+    
+    <div data-role="content">
+      <p>Als nächstes benötigst du die style.css. Du kannst sie <a href="http://j.gs/4300510/stylecss">jetzt herunter</a>. Hierbei handelt es sich um 1 KB. Erstelle im Root-Verzeichnis einen Ordner und nenne ihn "css". Hier legst du jetzt die soeben geladene Datei ab.</p>
+      <a href="http://j.gs/4300510/stylecss" data-role="button" data-rel="dialog" data-transition="pop">Datei laden</a>
+      <a href="#step3" data-role="button" data-rel="dialog" data-transition="flip">Okay, weiter!</a>
+    </div>
+    
+  </div>
+  
+  <div data-role="page" id="step3">
+  
+    <title>js</title>
+    
+    <div data-role="header">
+      <h1>Schritt 3</h1>
+    </div>
+    
+    <div data-role="content">
+      <p>Als nächstes benötigst zwei Dateien in einem ZIP-Ordner. Lade diesen <a href="http://j.gs/4300510/prep2">jetzt herunter</a>. Hierbei handelt es sich um 4 KB. Erstelle im Root-Verzeichnis einen Ordner und nenne ihn "js". Entpacke die Dateien und leg sie in diesem Ordner ab.</p>
+      <a href="http://j.gs/4300510/prep2" data-role="button" data-rel="dialog" data-transition="pop">Datei laden</a>
+      <a href="#step4" data-role="button" data-rel="dialog" data-transition="flip">Okay, weiter!</a>
+    </div>
+    
+  </div>
+  
+  <div data-role="page" id="step4">
+  
+    <title>Browserlauncher</title>
+    
+    <div data-role="header">
+      <h1>Schritt 4</h1>
+    </div>
+    
+    <div data-role="content">
+      <p>Die wichtigste Datei kommt jetzt: <a href="http://j.gs/4300510/launcher">DOWNLOAD</a>. Lege diese neben den anderen fünf Dateien im Root-Verzeichnis ab.</p>
+      <a href="http://j.gs/4300510/launcher" data-role="button" data-rel="dialog" data-transition="pop">Datei laden</a>
+      <a href="#step5" data-role="button" data-rel="dialog" data-transition="flip">Okay, weiter!</a>
+    </div>
+    
+  </div>
+  
+  <div data-role="page" id="step5">
+  
+    <title>Fast fertig</title>
+    
+    <div data-role="header">
+      <h1>Fast fertig...</h1>
+    </div>
+    
+    <div data-role="content">
+      <p>Wenn du es noch nicht getan hast, kannst du dir <a href="http://j.gs/4300510/exe">hier</a> den Projekt-Betrachter laden. Er läuft nur unter Windows, und benötigt keine Installation. Die Dateigröße kann allerdings variieren und wird nicht zu den 50 MB vom Anfang gezählt.</p>
+      <a href="http://j.gs/4300510/exe" data-role="button" data-rel="dialog" data-transition="pop">Projekt-Betrachter laden</a>
+      <a href="#fertig" data-role="button" data-rel="dialog" data-transition="flip">Abschließen</a>
+    </div>
+    
+  </div>
+  
+  <div data-role="page" id="fertig">
+  
+    <title>Abgeschlossen</title>
+    
+    <div data-role="header">
+      <h1>Geschafft!</h1>
+    </div>
+    
+    <div data-role="content">
+      <p>Ja, du hast nun alle Vorbereitungen abgeschlossen! Gehe jetzt in das von dir gewählte Root-Verzeichnis und öffne die Rtwtnj.exe. Dieses Fenster kannst du jetzt schließen.</p>
+    </div>
+    
+  </div>
+
+</body>
+</html>
